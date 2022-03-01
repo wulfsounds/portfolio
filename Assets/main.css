@@ -2,7 +2,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(120, 167, 185);
+    background-color: none;
+    background-image: url("./images/jeff-sheldon-9dI3g8owHiI-unsplash.jpg");
+    background-size: cover;
+    background-position: cover;
     color: rgb(233, 238, 243);
     font-family: tuppence, serif;
     height: 100vh;
@@ -50,11 +53,8 @@ a:link, a:visited {
     color: rgb(120, 167, 185);
 }
 
-/* Background Image */
-#hero {
-    background-image: url("./images/jeff-sheldon-9dI3g8owHiI-unsplash.jpg");
-    background-size: cover;
-    background-position: cover;
+a:hover {
+    color: whitesmoke;
 }
 
 /* Main Content */
@@ -66,16 +66,22 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
     padding-left: 10px;
+    background-color: rgb(120, 167, 185);
+    width: 600px;
 }
 
 .name-plate {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     /* border: red solid 2px; */
     width: 300px;
     height: 150px;
+    top: -25px;
 }
 
 h2 {
@@ -101,6 +107,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(120, 167, 185);
     /* border: red solid 2px; */
 }
 
@@ -134,21 +141,24 @@ article {
 }
 
 p {
+    display: flex;
+    position: relative;
+    top: -25px;
     text-align: justify;
     font-family: "futura pt";
     font-size: 16px;
     font-weight: 100;
-    margin: 0;
-    padding: 0;
     /* border: 2px solid red; */
 } 
 
 /* Footer */
 footer {
+    position: fixed; 
     color: rgb(11, 12, 14);
     font-size: small;
     padding: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
