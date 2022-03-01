@@ -6,14 +6,15 @@
 * This portfolio is an evolving project that will be updated periodically over the bootcamp cource.
 * Placeholders used in replace of work done for the portfolio will be mentioned here in the README. 
 
-### HTML Updates
-
-
-### CSS Updates
-
 ### Remaining Items
+* Complete Contact
+    - Contact form, Prof. SM links
+* Complete Resume
+* Scrub HTML, CSS
+* Review Instruction README and verify all points met
 
 
 
 ## Sources:
 Background Photo Credit: [`Jeff Sheldon`](https://unsplash.com/@ugmonk)
+Profile Picture taken by [Will von Bolton](https://www.willvonbolton.com/)
