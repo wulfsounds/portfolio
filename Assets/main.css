@@ -205,7 +205,7 @@ figure {
     align-items: center;
     width: 240px;
     height: 240px;
-    margin-top: 30px;
+    margin-top: 75px;
 
     background-image: url("./images/gold-texture.jpeg");
     background-position: center;
@@ -223,13 +223,26 @@ figure {
 /* Resume */
 
 /* Footer */
+
 footer {
-    /* position: static;  */
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(120, 167, 185);
     color: rgb(11, 12, 14);
     font-size: small;
     padding: 12px;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 786px;
     text-align: center;
 }
+
+.footer-link:link, .footer-link:visited {
+    color: rgb(11, 12, 14);
+}
+
+.footer-link:hover {
+        color: whitesmoke;
+      }
