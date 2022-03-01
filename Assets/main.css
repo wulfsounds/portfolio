@@ -2,14 +2,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: none;
-    background-image: url("./images/design-desk.jpg");
-    background-size: cover;
-    background-position: cover;
     color: rgb(233, 238, 243);
     font-family: tuppence, serif;
     height: 100vh;
     margin: 0;
+
+    /* Background image */
+    background-color: none;
+    background-image: url("./images/design-desk.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
 }
 
 /* Header, Nav, Links */
@@ -80,7 +84,7 @@ h2 {
     display: flex;
     font-size: 64px;
     word-spacing: 1px;
-    margin: 0;
+    margin-top: 75px;
     padding: 0;
     /* border-bottom: rgb(233, 238, 243) solid; */
     border-width: 3px;
@@ -114,7 +118,8 @@ article {
 
 p {
     display: flex;
-    position: relative;
+    position: static;
+    width: 600px;
     top: -25px;
     text-align: justify;
     font-family: "futura pt";
@@ -125,26 +130,50 @@ p {
 
 
 
-img {
+.screenshot {
     width: 600px;
+    height: 400px;
+    object-fit: contain;
 }
 
 /* Portfolio */
+
+#portfolio {
+    margin-top: 69px;
+}
+
+#collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    height:75em;
+    /* border: 3px solid red; */
+}
 
 figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    align-items: center;
 }
 
 #button {
-    position: relative;
+    text-align: center;
+    position: static;
     border: 3px solid whitesmoke;
     font-family: "futura pt", sans-serif;
     width: 75px;
-    margin-top: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 5px;
 
 }
@@ -155,9 +184,13 @@ figure {
 
 /* About */
 
+.about-header {
+    margin: 0;
+}
+
 .name-plate {
     display: flex;
-    position: relative;
+    position: static;
     flex-direction: column;
     align-items: center;
     /* border: red solid 2px; */
@@ -191,7 +224,7 @@ figure {
 
 /* Footer */
 footer {
-    position: fixed; 
+    /* position: static;  */
     color: rgb(11, 12, 14);
     font-size: small;
     padding: 12px;
