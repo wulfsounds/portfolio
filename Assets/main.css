@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: none;
-    background-image: url("./images/jeff-sheldon-9dI3g8owHiI-unsplash.jpg");
+    background-image: url("./images/design-desk.jpg");
     background-size: cover;
     background-position: cover;
     color: rgb(233, 238, 243);
@@ -57,9 +57,12 @@ a:hover {
     color: whitesmoke;
 }
 
-/* Main Content */
+/* Base Styling */
 
-main {
+#portfolio,
+#about,
+#contact,
+#resume {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -70,18 +73,7 @@ main {
     padding-top: 50px;
     padding-left: 10px;
     background-color: rgb(120, 167, 185);
-    width: 600px;
-}
-
-.name-plate {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    /* border: red solid 2px; */
-    width: 300px;
-    height: 150px;
-    top: -25px;
+    width: 800px;
 }
 
 h2 {
@@ -90,7 +82,7 @@ h2 {
     word-spacing: 1px;
     margin: 0;
     padding: 0;
-    border-bottom: rgb(233, 238, 243) solid;
+    /* border-bottom: rgb(233, 238, 243) solid; */
     border-width: 3px;
 }
 
@@ -100,7 +92,6 @@ h3 {
     padding-bottom: 18px;
 }
 
-/* About */
 section {
     display: flex;
     flex-wrap: wrap;
@@ -109,25 +100,6 @@ section {
     align-items: center;
     background-color: rgb(120, 167, 185);
     /* border: red solid 2px; */
-}
-
-#profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 240px;
-    margin-top: 30px;
-
-    background-image: url("./images/gold-texture.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-}
-
-.profile-pic {
-    width: 225px;
-    border-radius: 50%;
 }
 
 article {
@@ -149,7 +121,73 @@ p {
     font-size: 16px;
     font-weight: 100;
     /* border: 2px solid red; */
-} 
+}
+
+
+
+img {
+    width: 600px;
+}
+
+/* Portfolio */
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#button {
+    position: relative;
+    border: 3px solid whitesmoke;
+    font-family: "futura pt", sans-serif;
+    width: 75px;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+#button:link, #button:visited {
+    color: whitesmoke;
+}
+
+/* About */
+
+.name-plate {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    /* border: red solid 2px; */
+    width: 300px;
+    height: 150px;
+    top: -25px;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    margin-top: 30px;
+
+    background-image: url("./images/gold-texture.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    width: 225px;
+    border-radius: 50%;
+}
+
+/* Contact */
+
+/* Resume */
 
 /* Footer */
 footer {
