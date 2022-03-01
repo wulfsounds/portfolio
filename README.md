@@ -12,6 +12,7 @@
 * Complete Resume
 * Scrub HTML, CSS
 * Review Instruction README and verify all points met
+* Add @media parameters
 
 
 
