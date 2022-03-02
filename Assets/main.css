@@ -1,10 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    color: rgb(233, 238, 243);
+
+    /* font */
     font-family: tuppence, serif;
-    height: 100vh;
+    color: rgb(233, 238, 243);
     margin: 0;
 
     /* Background image */
@@ -12,7 +12,6 @@ body {
     background-image: url("./images/design-desk.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: cover;
     background-repeat: no-repeat;
 }
 
@@ -20,36 +19,28 @@ body {
 header {
     display: inline-flex;
     position: fixed;
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 10vh;
     justify-content: center;
     align-items: center;
     padding-right: 20px;
-
     background-color: rgb(11, 12, 14);
     color: rgb(233, 238, 243);
+    font-size: 25px;
     /* border: red solid 2px; */
+}
+
+h1 {
+    font-size: 45px;
 }
 
 nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 0px;
-    gap: 24px;
-  
+    justify-content:space-evenly;
+    width: 15%;
     font-family: "Futura PT", serif;
-    list-style: none;
+    font-size: 22px;
     /* border: red solid 2px; */
-}
-
-.nav-two{
-    margin-right: 10px;
-}
-
-.nav-three {
-    margin-left: 10px;
 }
 
 a:link, a:visited {
@@ -57,62 +48,48 @@ a:link, a:visited {
     color: rgb(120, 167, 185);
 }
 
-a:hover {
+a:hover, a:focus {
     color: whitesmoke;
 }
 
 /* Base Styling */
 
-#portfolio,
-#about,
-#contact,
-#resume {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+.hero {
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-left: 10px;
     background-color: rgb(120, 167, 185);
-    width: 800px;
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 175px;
+    padding-left: 10px;
 }
 
 h2 {
     display: flex;
     font-size: 64px;
     word-spacing: 1px;
-    margin-top: 75px;
-    padding: 0;
-    /* border-bottom: rgb(233, 238, 243) solid; */
-    border-width: 3px;
+    margin-top: 100px;
 }
 
 h3 {
     font-size: 32px;
     margin: 0;
+    padding-top: 15px;
     padding-bottom: 18px;
 }
 
 section {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(120, 167, 185);
     /* border: red solid 2px; */
 }
 
 article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 480px;
-    /* height: 300px; */
     /* border: 2px solid red; */
 }
 
@@ -120,11 +97,10 @@ p {
     display: flex;
     position: static;
     width: 600px;
-    top: -25px;
     text-align: justify;
     font-family: "futura pt";
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.5;
     /* border: 2px solid red; */
 }
 
@@ -136,56 +112,10 @@ p {
     object-fit: contain;
 }
 
-/* Portfolio */
-
-#portfolio {
-    margin-top: 69px;
-}
-
-#collection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    height:75em;
-    /* border: 3px solid red; */
-}
-
-figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height: 50px;
-    align-items: center;
-}
-
-#button {
-    text-align: center;
-    position: static;
-    border: 3px solid whitesmoke;
-    font-family: "futura pt", sans-serif;
-    width: 75px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 5px;
-
-}
-
-#button:link, #button:visited {
-    color: whitesmoke;
-}
-
 /* About */
 
 .about-header {
-    margin: 0;
+    margin-top: 15px;
 }
 
 .name-plate {
@@ -193,23 +123,19 @@ figure {
     position: static;
     flex-direction: column;
     align-items: center;
-    /* border: red solid 2px; */
-    width: 300px;
+    line-height: 1;
     height: 150px;
     top: -25px;
+    /* border: red solid 2px; */
 }
 
 #profile {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 240px;
     height: 240px;
-    margin-top: 75px;
-
     background-image: url("./images/gold-texture.jpeg");
     background-position: center;
-    background-repeat: no-repeat;
     border-radius: 50%;
 }
 
@@ -218,7 +144,84 @@ figure {
     border-radius: 50%;
 }
 
+/* Portfolio */
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screenshot {
+    margin-top: 75px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+
+    background-color: whitesmoke;
+    color: rgb(120, 167, 185);
+    border: 3px solid whitesmoke;
+    border-style: solid;
+    border-color: transparent;
+
+    font-family: "futura", sans-serif;
+    
+    width: 100px;
+    height: 30px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+#button:hover {
+    background-color: rgb(120, 167, 185);
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+}
+
 /* Contact */
+
+.contact-container {
+    font-family: "futura pt", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    justify-content: center;
+    width: 350px;
+    padding-top: 35px;
+    /* outline: 3px solid blueviolet; */
+}
+
+.contact-info {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+#social-link:link, 
+#social-link:visited {
+    color: whitesmoke;
+}
+
+#social-link:hover {
+    color: #000;
+}
 
 /* Resume */
 
@@ -226,17 +229,10 @@ figure {
 
 footer {
     display: flex;
-    align-self: center;
-    align-items: center;
     justify-content: center;
-    background-color: rgb(120, 167, 185);
     color: rgb(11, 12, 14);
-    font-size: small;
+    font-size: 18px;
     padding: 12px;
-    left: 0;
-    bottom: 0;
-    width: 786px;
-    text-align: center;
 }
 
 .footer-link:link, .footer-link:visited {
