@@ -144,6 +144,21 @@ p {
     border-radius: 50%;
 }
 
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align: flex-start;
+    margin-top: 25px;
+    width: 125px;
+    height: 50px;
+}
+
+.logos {
+    margin-top: 25px;
+    width: 30px;
+}
+
 /* Portfolio */
 
 figure {
@@ -177,7 +192,7 @@ figure {
     border-color: transparent;
 
     font-family: "futura", sans-serif;
-    
+
     width: 100px;
     height: 30px;
     margin-top: 75px;

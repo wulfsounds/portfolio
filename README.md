@@ -18,10 +18,10 @@
 * Added :hover to portfolio links.
 * Updated Nav links for designated email and GitHub links
 * Relocated #buttons to main.css file
+* Add professional links icons with links.
 
 ## 👑 Quest Items👑
 * ~~Complete Resume~~
-* NEW: LOGOS!!
 * NEW: Prioritize and resize portfolio sections.
 * Add @media parameters to main and splash css files.
 * ~~Add :focus on nav links~~
