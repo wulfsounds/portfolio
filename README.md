@@ -5,23 +5,11 @@
 * To design and build a dynamic websites that showcases a portfolio, bio, contact information, and resume.
 * This portfolio is an evolving project that will be updated periodically over the bootcamp cource.
 
-## 3/1 Update
-
-* See retro updates on GitHub. 🕺🏼
-* First Scrub!
-    - Deleted code not longer relevant to the build.
-    - Consolidated CSS containers
-* Added Contact section
-* Added Reset CSS to the Assets folder and linked to index/portfolio HTML.
-* Can I haz *reset.css?* 🐈
-    - Yes.
-* Added :hover to portfolio links.
-* Updated Nav links for designated email and GitHub links
+## 3/2 Update
 * Relocated #buttons to main.css file
 * Add professional links icons with links.
 
 ## 👑 Quest Items👑
-* ~~Complete Resume~~
 * NEW: Prioritize and resize portfolio sections.
 * Add @media parameters to main and splash css files.
 * ~~Add :focus on nav links~~
