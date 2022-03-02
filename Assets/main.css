@@ -148,7 +148,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align: flex-start;
+    align-items: flex-start;
     margin-top: 25px;
     width: 125px;
     height: 50px;
@@ -169,6 +169,15 @@ figure {
 
 .screenshot {
     margin-top: 75px;
+}
+
+.small {
+    display: inline-flex;
+    width: 300px;
+}
+
+.second {
+    width: 200px;
 }
 
 .button-container {
