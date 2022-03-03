@@ -8,6 +8,7 @@ body {
     /* font */
     font-family: tuppence, serif;
     color: rgb(233, 238, 243);
+
     margin: 0;
 
     /* Background image */
@@ -163,6 +164,8 @@ p {
 }
 
 .section-b {
+    display: flex;
+    /* align-items: center; */
     margin-bottom: 50px;
 }
 
@@ -306,12 +309,45 @@ footer {
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
+    body{
+        width: 100vw;
+    }
+    nav {
+        font-size: 20px;
+    }
+
     header {
         width: 120vw;
+        height: 15vh;
+        left: -10vw;
+    }
+
+    .hero {
+        width: 75vw;
+        /* padding-right: 50px;
+        padding-left: -25px; */
+        /* left: -3vw; */
+    }
+
+    p {
+        width: 500px;
+    }
+
+    .repo-container > .button-container {
+        width: 245px;
+    }
+
+    #screenshot {
+        width: 550px;
+    }
+
+    .screenshot2 {
+        width: 250px;
+        border-radius: 10px;
     }
 
     #secondary {
-        
+        width: 545px;
     }
   
   /* Small smartphones - image placeholders change color */
