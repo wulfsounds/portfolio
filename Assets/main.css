@@ -1,6 +1,9 @@
+
 body {
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 
     /* font */
     font-family: tuppence, serif;
@@ -23,7 +26,6 @@ header {
     height: 10vh;
     justify-content: center;
     align-items: center;
-    padding-right: 20px;
     background-color: rgb(11, 12, 14);
     color: rgb(233, 238, 243);
     font-size: 25px;
@@ -62,7 +64,8 @@ a:hover, a:focus {
     width: 50vw;
     margin: 0 auto;
     padding-top: 175px;
-    padding-left: 10px;
+    box-shadow:  0 0 15px rgb(71, 98, 109);
+    /* border: 2px solid red; */
 }
 
 h2 {
@@ -105,12 +108,11 @@ p {
 }
 
 
-.screenshot {
-    height: 500px;
-    object-fit: cover;
-}
-
 /* About */
+
+/* main {
+    border: 2px solid red;
+} */
 
 .about-header {
     margin-top: 15px;
@@ -119,11 +121,12 @@ p {
 .name-plate {
     display: flex;
     position: static;
+    padding-top: 10px;
     flex-direction: column;
     align-items: center;
     line-height: 1;
-    height: 150px;
-    top: -25px;
+    height: 165px;
+    top: -50px;
     /* border: red solid 2px; */
 }
 
@@ -135,6 +138,7 @@ p {
     background-image: url("./images/gold-texture.jpeg");
     background-position: center;
     border-radius: 50%;
+    box-shadow: 0 0 10px rgb(72, 72, 72);
 }
 
 .profile-pic {
@@ -155,32 +159,56 @@ p {
 .logos {
     margin-top: 25px;
     width: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.section-b {
+    margin-bottom: 50px;
 }
 
 /* Portfolio */
+#portfolio {
+    margin-top: 125px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    width: 900px;
+}
+
+#portfolio h2 {
+    margin-top: 30px;
+}
 
 figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
-
+    
     /* border: white solid 2px; */
 }
 
-.screenshot, .screenshot2 {
-    margin-top: 75px;
+#screenshot {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 0%;
+    
+}
+
+#screenshot, .screenshot2 {
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(16, 15, 15);
 }
 
 .screenshot2 {
-    width: 400px;
+    width: 375px;
 }
 
 #secondary {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 900px;
+    width: 800px;
     /* border: 2px solid pink; */
 }
 
@@ -191,15 +219,12 @@ figure {
     /* border: 2px solid yellow; */
 }
 
-.container1 {
+.repo-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     /* border: 2px solid orangered; */
-}
-
-.second {
-    width: 200px;
 }
 
 .button-container {
@@ -208,7 +233,7 @@ figure {
     align-items: center;
     width: 300px;
     height: 50px;
-
+    margin-top: 25px;
     /* border: 2px solid blue; */
 }
 
@@ -216,20 +241,15 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: static;
-
     background-color: whitesmoke;
     color: rgb(120, 167, 185);
     border: 3px solid whitesmoke;
     border-style: solid;
     border-color: transparent;
-
+    border-radius: 10px;
     font-family: "futura", sans-serif;
-
     width: 100px;
     height: 30px;
-    margin-top: 75px;
-    margin-bottom: 50px;
     padding: 5px;
 }
 
@@ -238,40 +258,6 @@ figure {
     color: whitesmoke;
     border: 3px solid whitesmoke;
 }
-
-/* Contact */
-
-.contact-container {
-    font-family: "futura pt", sans-serif;
-    text-transform: uppercase;
-    text-align: justify;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 0 auto;
-    justify-content: center;
-    width: 350px;
-    padding-top: 35px;
-    /* outline: 3px solid blueviolet; */
-}
-
-.contact-info {
-    display: flex;
-    flex: 1 0 auto;
-    justify-content: center;
-    flex-direction: row;
-    font-size: 25px;
-}
-
-#social-link:link, 
-#social-link:visited {
-    color: whitesmoke;
-}
-
-#social-link:hover {
-    color: #000;
-}
-
-/* Resume */
 
 /* Footer */
 
@@ -290,3 +276,45 @@ footer {
 .footer-link:hover {
         color: whitesmoke;
       }
+
+/* Media Queries */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    nav {
+        width: 25vw;
+    }
+
+    .hero {
+        width: 75vw;
+    }
+
+    #secondary {
+        width: 675px;
+    }
+
+    #screenshot {
+        object-fit: cover;
+        width: 650px;
+        height: auto;
+    }
+
+    .screenshot2 {
+        width: 325px;
+    }
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    header {
+        width: 120vw;
+    }
+
+    #secondary {
+        
+    }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+
+}

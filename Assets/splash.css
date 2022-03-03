@@ -1,29 +1,53 @@
 /* Main Content */
-
 main {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    flex-wrap: no-wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-left: 10px;
-}
-
-#enter {
-    color: whitesmoke;
-}
-
-#enter:hover {
-    color: rgb(120, 167, 185);
+    width: 50vw;
+    height: 100vh;
+    /* border: 3px solid whitesmoke; */
 }
 
 h2 {
-    display: flex;
+    display: inline-flex;
+    position: absolute;
+    bottom: 430px;
+    right: 640px;
     font-size: 64px;
     word-spacing: 1px;
     margin: 0;
-    padding: 0;
+    padding: 55px 110px 55px 110px;
+    border: 2px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: goldenrod;
+    border: 5px solid goldenrod;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: "futura", sans-serif;
+    width: 600px;
+    height: 200px;
+    padding: 5px;
+
+/* Saving for a rainy day */
+
+    /* 
+    transition: background-color 1s linear; 
+    -moz-transition: background-color 1s linear;  
+    -webkit-transition: background-color 1s linear; 
+    -ms-transition: background-color 1s linear;  */
+}
+
+h2:hover {
+    background-image: url("./images/gold-texture.jpeg");
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
 }
 
 h3 {
@@ -42,4 +66,59 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        height: 58px;
+    }
+
+    nav {
+        width: 25vw;
+    }
+
+    .hero {
+        width: 75vw;
+    }
+
+    #secondary {
+        width: 675px;
+    }
+
+    #screenshot {
+        object-fit: cover;
+        width: 650px;
+        height: auto;
+    }
+
+    .screenshot2 {
+        width: 325px;
+    }
+
+    h2 {
+        width: 400px;
+        height: 100px;
+        left: 290px;
+        top: 240px;
+    }
+}
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    h2 {
+        width: 250px;
+        height: 75px;
+        left: 249px;
+        top: 229px;
+
+        font-size: 40px;
+    }
+}
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    h2 {
+        left: 160px;
+        top: 210px;
+    }
 }
