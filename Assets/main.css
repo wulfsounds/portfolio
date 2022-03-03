@@ -349,8 +349,20 @@ footer {
     #secondary {
         width: 545px;
     }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-
 }
+
+/* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    body {
+        width: 115vw;
+    }
+
+    header {
+        width: 126vw;
+        left: -5vw;
+    }
+
+    .hero{
+        width: 100vw;
+    }
+  }
