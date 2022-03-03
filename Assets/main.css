@@ -10,13 +10,15 @@ body {
     background-image: url("./images/design-desk.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 /* Header, Nav, Links */
 header {
-    display: inline-flex;
+    display: flex;
     position: fixed;
+    flex: 1 0;
     width: 100vw;
     height: 10vh;
     justify-content: center;
@@ -33,6 +35,7 @@ h1 {
 nav {
     display: flex;
     justify-content:space-evenly;
+    min-width: 170px;
     width: 15%;
     font-family: "Futura PT", serif;
     font-size: 18px;
@@ -52,9 +55,11 @@ a:hover, a:focus {
 .hero {
     display: inline-flex;
     flex-direction: column;
+    flex: 1 0;
     align-items: center;
     background-color: rgb(120, 167, 185);
     width: 50vw;
+    min-width: 576px;
     margin: 0 auto;
     padding-top: 100px;
     box-shadow:  0 0 15px rgb(71, 98, 109);
@@ -88,6 +93,7 @@ article {
 p {
     display: flex;
     position: static;
+    flex: 1 1 auto;
     width: 500px;
     text-align: justify;
     font-family: "futura pt";
@@ -98,18 +104,10 @@ p {
 
 /* About */
 
-.about-header {
-    margin-top: 15px;
-}
-
-.name-plate {
+.section-a {
     display: flex;
-    position: static;
-    flex-direction: column;
     align-items: center;
-    line-height: 1;
-    height: 150px;
-    top: -50px;
+    margin-bottom: 50px;
 }
 
 #profile {
@@ -129,6 +127,20 @@ p {
     border-radius: 50%;
 }
 
+.name-plate {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    height: 150px;
+    top: -50px;
+}
+
+.about-header {
+    margin-top: 15px;
+}
+
 #links {
     display: flex;
     flex-direction: row;
@@ -145,12 +157,6 @@ p {
     margin-bottom: 50px;
 }
 
-.section-b {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
 /* Portfolio */
 #portfolio {
     padding-bottom: 30px;
@@ -162,47 +168,55 @@ p {
     margin-top: 100px;
 }
 
-figure {
+.work {
     display: flex;
+    flex: 0 1;
+    position: relative;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    width: 720px;
+    max-width: 720px;
     height: 600px;
 }
 
-#screenshot {
-    width: 675px;
-    height: 350px;
+.repo-container1 {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.screenshot {
+    max-width: 500px;
+    min-width: 500px;
+    /* height: 350px; */
     object-fit: cover;
-    object-position: 0 0%;
-}
-
-#screenshot, .screenshot2 {
-    margin-top: 50px;
-    border-radius: 15px;
-    box-shadow: 0 0 5px rgb(16, 15, 15);
-}
-
-.screenshot2 {
-    margin: 0 auto;
-    width: 300px;
+    /* object-position: 0 0%; */
 }
 
 #secondary {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 500px;
     height: 200px;
 }
 
-.container2 {
+.repo-container2,
+.repo-container3 {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    align-content: space-around;
+    width: 500px;
     height: 100px;
+    gap: 10px;
 }
+
+.container2,
 .container3 {
     display: flex;
     align-items: center;
@@ -210,23 +224,19 @@ figure {
     height: 100px;
 }
 
-.repo-container1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
+.screenshot2 {
+    margin: 0 auto;
+    max-width: 250px;
+    min-width: 250px;
 }
 
-.repo-container2 {
+.screenshot, .screenshot2 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    width: 700px;
-    height: 100px;
-    gap: 30px;
+    flex: 0 1;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(16, 15, 15);
 }
 
 /* Footer */
@@ -235,7 +245,7 @@ footer {
     display: flex;
     justify-content: center;
     color: rgb(11, 12, 14);
-    font-size: 18px;
+    font-size: 12px;
     padding: 12px;
 }
 
@@ -252,25 +262,30 @@ footer {
 /* Tablets */
 @media screen and (max-width: 992px) {
     nav {
-        width: 25vw;
+        min-width: 170px;
     }
 
     .hero {
-        width: 75vw;
+        min-width: 576px;
+    }
+
+    p {
+        max-width: 500px;
+        min-width: 350px;
     }
 
     #secondary {
         width: 675px;
     }
 
-    #screenshot {
-        object-fit: cover;
-        width: 650px;
+    .screenshot {
+        max-width: 500px;
+        /* width: 650px; */
         height: auto;
     }
 
     .screenshot2 {
-        width: 325px;
+        width: 250px;
     }
 }
   
@@ -280,28 +295,45 @@ footer {
         width: 100vw;
     }
     nav {
-        font-size: 20px;
+        max-width: 170px;
+        /* width: 25%; */
     }
 
     header {
-        width: 120vw;
-        height: 15vh;
-        left: -10vw;
+        max-width: 605vw;
+        /* height: 15vh; */
+        /* left: -10vw; */
     }
 
     .hero {
-        width: 75vw;
+        max-width: 576px;
+        min-width: 576px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .name-plate{
+        height: 100px;
     }
 
     p {
-        width: 500px;
+        height: 350px;
+        font-size: 16px;
+        max-width: 500px;
+        min-width: 350px;
     }
 
     .repo-container > .button-container {
         width: 245px;
     }
 
-    #screenshot {
+    .screenshot {
         width: 550px;
     }
 
@@ -328,5 +360,10 @@ footer {
 
     .hero{
         width: 576px;
+    }
+    
+    p {
+        max-width: 500px;
+        min-width: 390px;
     }
   }

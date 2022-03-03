@@ -12,9 +12,11 @@
 * Added shadows for texture.
 * Added @media parameters to main and splash css files
 * SCRUBBED!
+* Reviewed Instruction README and verified all points met!
 
 ## 👑 Quest Items👑.
-* Review Instruction README and verify all points met
+* 🧚🏻 Hey! Listen!
+    - Progress through the bootcamp to gain more Quests!
 
 ## Troubleshoot 🔫
 
