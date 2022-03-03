@@ -11,10 +11,10 @@
 * Resized and rearranged Portfolio
 * Added shadows for texture.
 * Added @media parameters to main and splash css files
+* SCRUBBED!
 
 ## 👑 Quest Items👑.
 * Review Instruction README and verify all points met
-* NEW: Scrub again! :D
 
 ## Troubleshoot 🔫
 
