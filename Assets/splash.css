@@ -23,7 +23,9 @@ h2 {
     color: goldenrod;
     border: 5px solid goldenrod;
     border-radius: 10px;
-    font-family: "futura", sans-serif;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
     width: 550px;
     height: 150px;
     padding: 5px;
