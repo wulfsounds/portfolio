@@ -37,7 +37,7 @@ nav {
     justify-content:space-evenly;
     min-width: 170px;
     width: 15%;
-    font-family: "Futura PT", serif;
+    font-family: "Futura pt", sans-serif;
     font-size: 18px;
 }
 
@@ -96,7 +96,7 @@ p {
     flex: 1 1 auto;
     width: 500px;
     text-align: justify;
-    font-family: "futura pt";
+    font-family: "Futura pt", sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
