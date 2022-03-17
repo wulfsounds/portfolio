@@ -1,0 +1,90 @@
+body {
+    background-color: #F2B05E;
+    color: #F2EBDF;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#title-main {
+    display: inline;
+    position: absolute;
+    left: 1.5%;
+    z-index: 3;
+    font-family: mighty-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #8C2626;
+}
+
+#title-second {
+    display: inline;
+    position: absolute;
+    left: 1.5%;
+    z-index: 2;
+    font-family: mighty-slab, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    color: #F2EBDF;
+}
+
+#title-third {
+    display: inline;
+    position: absolute;
+    left: 1.5%;
+    z-index: 1;
+    font-family: mighty-slab, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    color: #D93425;
+}
+
+#title-fourth {
+    display: inline;
+    position: absolute;
+    left: 1.5%;
+    font-family: mighty-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: #F2EBDF;
+}
+
+ul {
+    display: inline;
+    position: relative;
+    font-family: lust-display,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+a {
+    color: #F2EBDF;
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+
+}
+
+/* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+
+}

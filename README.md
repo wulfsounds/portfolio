@@ -25,5 +25,3 @@
     - v2.0 | 20110126 | License: none (public domain)
 - Background Photo Credit: [`Jeff Sheldon`](https://unsplash.com/@ugmonk)
 - Headshot Photo Credit: [Will von Bolton](https://www.willvonbolton.com/)
-
-288
