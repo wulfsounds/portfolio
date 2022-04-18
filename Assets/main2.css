@@ -72,6 +72,25 @@ a {
     color: #F2EBDF;
 }
 
+main {
+    display: flex;
+}
+
+img {
+    position: relative;
+    z-index: -1;
+}
+
+#thumbnail {
+    /* Positioning */
+    left: -116.2em;
+    top: 138em;
+    width: 56.5em;
+
+    /*Shaping*/
+    border-radius: 10%;
+}
+
 /* Media Queries */
 
 /* Tablets */
