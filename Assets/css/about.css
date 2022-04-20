@@ -1,0 +1,458 @@
+.mediaViewInfo {
+    --web-view-name: About;
+    --web-view-id: About;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: About;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#About {
+    position: absolute;
+    width: 1920px;
+    height: 2224px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: About;
+    --web-view-id: About;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Path_2 {
+    fill: rgba(240,175,101,1);
+}
+.Path_2 {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 2339.269px;
+    left: 0px;
+    top: 27px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#nameplate-folio2 {
+    position: absolute;
+    width: 1920px;
+    height: 1085px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(242,235,224,1);
+    stroke-width: 10px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1625.108px;
+    height: 1642.034px;
+    left: 372.5px;
+    top: 645.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#devwulf {
+    left: 786px;
+    top: 872px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_m {
+    left: 845px;
+    top: 933px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_n {
+    left: 904px;
+    top: 994px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_o {
+    left: 951px;
+    top: 1040px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_p {
+    left: 954px;
+    top: 1040px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_q {
+    left: 1013px;
+    top: 1101px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_r {
+    left: 1071px;
+    top: 1162px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_s {
+    left: 1119px;
+    top: 1208px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_t {
+    left: 1072px;
+    top: 1148px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_u {
+    left: 1130px;
+    top: 1209px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_v {
+    left: 1188px;
+    top: 1270px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_w {
+    left: 1236px;
+    top: 1316px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_x {
+    left: 1278px;
+    top: 1354px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_y {
+    left: 1337px;
+    top: 1415px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_z {
+    left: 1395px;
+    top: 1476px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_ {
+    left: 1443px;
+    top: 1522px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_ba {
+    left: 1464px;
+    top: 1544px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_bb {
+    left: 1523px;
+    top: 1605px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_bc {
+    left: 1584px;
+    top: 1666px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_bd {
+    left: 1629px;
+    top: 1712px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_be {
+    left: 1665px;
+    top: 1751px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_bf {
+    left: 1724px;
+    top: 1812px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_bg {
+    left: 1782px;
+    top: 1873px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#devwulf_bh {
+    left: 1830px;
+    top: 1919px;
+    position: absolute;
+    overflow: visible;
+    width: 1301px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Mighty Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240.3699951171875px;
+    color: rgba(242,235,224,1);
+}
+#Group_2 {
+    position: absolute;
+    width: 352px;
+    height: 141px;
+    left: 727px;
+    top: 289px;
+    overflow: visible;
+}
+#about {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 353px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Aktiv Grotesk Ex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    color: rgba(255,255,255,1);
+}
+#Full_Stack_Web__Graphic_Design {
+    left: 163px;
+    top: 1666px;
+    position: absolute;
+    overflow: visible;
+    width: 1578px;
+    height: 336px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(0,0,0,1);
+}
+#dev-profile-wvb {
+    position: absolute;
+    width: 367px;
+    height: 367px;
+    left: 286px;
+    top: 1208px;
+    overflow: visible;
+}
+#hello {
+    left: 167px;
+    top: 1369px;
+    position: absolute;
+    overflow: visible;
+    width: 679px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Aktiv Grotesk Ex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 240px;
+    color: rgba(255,255,255,1);
+}
