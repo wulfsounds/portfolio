@@ -1,59 +1,49 @@
 body {
     background-color: #F2B05E;
     color: #F2EBDF;
-
 }
 
 header {
     display: flex;
     justify-content: flex-end;
+}
 
+#contact {
+    z-index: -1;
+    width: 700px;
+    margin: -290px 0 0 545px;
+}
+
+#title-main, #title-second,
+#title-third, #title-fourth {
+    display: inline;
+    position: absolute;
+    left: 1.5%;
+    font-family: mighty-slab, serif;
+    font-style: normal;
+    font-size: 45px;
 }
 
 #title-main {
-    display: inline;
-    position: absolute;
-    left: 1.5%;
     z-index: 3;
-    font-family: mighty-slab, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
     color: #8C2626;
+    font-weight: 400;
 }
 
 #title-second {
-    display: inline;
-    position: absolute;
-    left: 1.5%;
     z-index: 2;
-    font-family: mighty-slab, serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 60px;
     color: #F2EBDF;
+    font-weight: 500;
 }
 
 #title-third {
-    display: inline;
-    position: absolute;
-    left: 1.5%;
     z-index: 1;
-    font-family: mighty-slab, serif;
     font-weight: 600;
-    font-style: normal;
-    font-size: 60px;
     color: #D93425;
 }
 
 #title-fourth {
-    display: inline;
-    position: absolute;
-    left: 1.5%;
-    font-family: mighty-slab, serif;
     font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
     color: #F2EBDF;
 }
 
@@ -74,6 +64,43 @@ a {
 
 main {
     display: flex;
+    flex-direction: column;
+}
+
+#splash-text {
+    /* Type */
+    font-family: mighty-slab, serif;
+    font-size: 115px;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B2729;
+    /* Sizing */
+    margin: 0 0 0 -100px;
+}
+
+.container {
+    margin-top: 25px;
+}
+
+.definition, .say-it {
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: -100px;
+    color: #8B2729
+}
+
+.say-it {
+    margin-top: -25px;
+}
+
+/* .mani-contain {
+    background-color: #FFF;
+} */
+
+#manifest {
+    width: 750px;
+    margin: 150px 0 0 325px;
 }
 
 img {
@@ -85,7 +112,7 @@ img {
     /* Positioning */
     left: -116.2em;
     top: 138em;
-    width: 56.5em;
+    width: 500px;
 
     /*Shaping*/
     border-radius: 10%;
