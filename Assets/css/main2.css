@@ -62,6 +62,82 @@ a {
     color: #F2EBDF;
 }
 
+.d-title {
+    font-family: mighty-slab, serif;
+    font-size: 85px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -170px;
+    margin-left: 745px;
+}
+
+.d-title3 {
+    font-family: mighty-slab, serif;
+    font-size: 85px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -50px;
+    margin-left: 745px;
+}
+
+.d-title2 {
+    font-family: mighty-slab, serif;
+    font-size: 85px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -45px;
+    margin-left: 200px;
+}
+
+.d-title4 {
+    font-family: mighty-slab, serif;
+    font-size: 85px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -45px;
+    margin-left: 200px;
+}
+
+p {
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -15px;
+    margin-left: 745px;
+}
+
+.para3 {
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -10px;
+    margin-left: 745px;
+}
+
+.para2 {
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -15px;
+    margin-left: 200px;
+}
+
+.para4 {
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    margin-top: -15px;
+    margin-left: 200px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -108,12 +184,38 @@ img {
     z-index: -1;
 }
 
-#thumbnail {
+#thumbnail-1 {
     /* Positioning */
-    left: -116.2em;
-    top: 138em;
+    left: 9em;
+    top: 4em;
     width: 500px;
+    /*Shaping*/
+    border-radius: 10%;
+}
 
+#thumbnail-3 {
+    /* Positioning */
+    left: 9em;
+    top: 12em;
+    width: 500px;
+    /*Shaping*/
+    border-radius: 10%;
+}
+
+#thumbnail-2 {
+    /* Positioning */
+    left: 50em;
+    top: 12em;
+    width: 500px;
+    /*Shaping*/
+    border-radius: 10%;
+}
+
+#thumbnail-4 {
+    /* Positioning */
+    left: 50em;
+    top: 12em;
+    width: 500px;
     /*Shaping*/
     border-radius: 10%;
 }
