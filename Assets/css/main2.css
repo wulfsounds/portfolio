@@ -14,8 +14,8 @@ header {
 
 #contact {
     z-index: -1;
-    width: 700px;
-    margin: -290px 0 0 545px;
+    width: 880px;
+    margin: -285px 0 0 521px;
 }
 
 #title-main, #title-second,
@@ -155,7 +155,7 @@ main {
     font-style: normal;
     color: #8B2729;
     /* Sizing */
-    margin: 0 0 0 -100px;
+    margin: 0 0 0 50px;
 }
 
 .container {
@@ -166,12 +166,16 @@ main {
     font-family: aktiv-grotesk-extended,sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: -100px;
+    margin-left: 50px;
     color: #8B2729
 }
 
 .say-it {
     margin-top: -25px;
+}
+
+.definition {
+    margin-top: -15px;
 }
 
 /* .mani-contain {
