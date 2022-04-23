@@ -248,8 +248,67 @@ span {
 /* Media Queries */
 
 /* Tablets */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1780px) {
+    #contact {
+        width: 1235px;
+        margin: -455px 0 0 521px;
+    }
 
+    #splash-text {
+        font-size: 130px;
+        margin: 0 0 0 30px;
+    }
+
+    .definition, .say-it {
+        margin-left: 30px;
+    }
+
+    #thumbnail-1, #thumbnail-2,
+    #thumbnail-3, #thumbnail-4 {
+        width: 775px;
+    }
+
+    #thumbnail-1, #thumbnail-3 {
+        left: 2em;
+    }
+
+    #thumbnail-2, #thumbnail-4 {
+        left: 60em;
+    }
+
+    .d-title, .d-title3 {
+        font-size: 120px;
+        margin-top: -320px;
+        margin-left: 860px;
+    }
+
+    
+    .d-title2, .d-title4 {
+        font-size: 120px;
+        margin-left: 215px;
+        margin-top: -325px;
+    }
+
+    .d-title4 {
+        margin-left: 270px;
+    }
+
+    p, .para3 {
+        font-size: 25px;
+        margin-left: 860px;
+        width: 840px;
+    }
+
+    .para2, .para4 {
+        font-size: 25px;
+        margin-left: 40px;
+        width: 840px;
+    }
+
+    footer {
+        font-size: 25px;
+        margin: 185px 0 10px 0;
+    }
 }
   
   /* Large smartphones - navbar changes color */
