@@ -247,7 +247,7 @@ span {
 /* Media Queries */
 
 /* Large Display */
-@media screen and (min-width: 1800px) {
+@media screen and (max-width: 1800px) {
     #contact {
         max-width: 1100px;
         margin: -319px 0 0 600px;
@@ -324,88 +324,10 @@ span {
 }
 
 /* Standard Laptop */
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
     #contact {
-        max-width: 727px;
-        margin: -275px 0 0 660px;
-    }
-
-    ul {
-        margin-right: 45px;
-    }
-
-    #splash-text {
-        font-size: 100px;
-        margin: 0 0 0 30px;
-    }
-
-    .definition,
-    .say-it {
-        margin-left: 30px;
-        font-size: 25px;
-    }
-
-    #thumbnail-1,
-    #thumbnail-2,
-    #thumbnail-3,
-    #thumbnail-4 {
-        width: 600px;
-    }
-
-    #thumbnail-1,
-    #thumbnail-3 {
-        left: 3em;
-    }
-
-    #thumbnail-2,
-    #thumbnail-4 {
-        left: 48em;
-    }
-
-    .d-title,
-    .d-title3 {
-        font-size: 85px;
-        margin-top: -215px;
-        margin-left: 680px;
-    }
-
-
-    .d-title2,
-    .d-title4 {
-        font-size: 85px;
-        margin-left: 206px;
-        margin-top: -228px;
-    }
-
-    .d-title4 {
-        margin-left: 240px;
-    }
-
-    p,
-    .para3 {
-        font-size: 18px;
-        margin-left: 680px;
-        width: 700px;
-    }
-
-    .para2,
-    .para4 {
-        font-size: 18px;
-        margin-left: 59px;
-        width: 618px;
-    }
-
-    footer {
-        font-size: 18px;
-        margin: 185px -180px 10px 0;
-    }
-}
-
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 1200px) {
-    #contact {
-        max-width: 727px;
-        margin: -275px 0 0 660px;
+        max-width: 898px;
+        margin: -297px 0 0 711px;
     }
 
     ul {
@@ -479,9 +401,95 @@ span {
     }
 }
 
-@media screen and (max-width: 992px) {}
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 1024px) {
+    #contact {
+        max-width: 727px;
+        margin: -205px 0 0 435px;
+    }
 
-@media screen and (max-width: 768px) {}
+    ul {
+        margin-right: -165px;
+    }
+
+    #splash-text {
+        font-size: 100px;
+        margin: 0 0 0 30px;
+    }
+
+    .definition,
+    .say-it {
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    #thumbnail-1,
+    #thumbnail-2,
+    #thumbnail-3,
+    #thumbnail-4 {
+        width: 500px;
+    }
+
+    #thumbnail-1,
+    #thumbnail-3 {
+        left: 3em;
+    }
+
+    #thumbnail-2,
+    #thumbnail-4 {
+        left: 37em;
+    }
+
+    .d-title,
+    .d-title3 {
+        font-size: 55px;
+        margin-top: -160px;
+        margin-left: 580px;
+    }
+
+
+    .d-title2,
+    .d-title4 {
+        font-size: 55px;
+        margin-left: 225px;
+        margin-top: -175px;
+    }
+
+    .d-title4 {
+        margin-left: 250px;
+    }
+
+    p,
+    .para3 {
+        font-size: 15px;
+        margin-left: 580px;
+        width: 525px;
+    }
+
+    .para2,
+    .para4 {
+        font-size: 15px;
+        margin-left: 35px;
+        width: 495px;
+    }
+
+    footer {
+        font-size: 18px;
+        margin: 185px -180px 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+        margin-right: -390px;
+    }
+
+    footer {
+        font-size: 18px;
+        margin: 123px -380px 15px 10px;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 576px) {
     #contact {
@@ -490,7 +498,7 @@ span {
     }
 
     ul {
-        margin-right: -32em;
+        margin-right: -585px;
     }
 
     #splash-text {
