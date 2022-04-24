@@ -10,14 +10,18 @@ body {
 
 .profile-pic {
     width: 400px;
-    margin-top: 50em;
-    margin-left: 10em;
+    margin-top: 47em;
+    margin-left: 9em;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navi {
+    margin-right: 50px;
 }
 
 .container {
@@ -28,12 +32,12 @@ main {
 
 h3 {
     font-family: aktiv-grotesk-extended, sans-serif;
-    font-size: 100px;
+    font-size: 150px;
     font-weight: 400;
     font-style: normal;
     color: #FFF;
-    margin-top: -.75em;
-    margin-left: 1.35em;
+    margin-top: -0.75em;
+    margin-left: 1.02em;
     width: 300px;
 }
 
@@ -42,8 +46,9 @@ h3 {
 }
 
 p {
+    font-size: 22px;
     width: 600px;
-    margin-top: -26em;
+    margin-top: -28.5em;
     margin-left: 29em;
 }
 
