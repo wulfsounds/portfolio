@@ -18,8 +18,10 @@ header {
     margin: -285px 0 0 521px;
 }
 
-#title-main, #title-second,
-#title-third, #title-fourth {
+#title-main,
+#title-second,
+#title-third,
+#title-fourth {
     display: inline;
     position: absolute;
     left: 1.5%;
@@ -54,7 +56,7 @@ header {
 ul {
     display: inline;
     position: relative;
-    font-family: lust-display,serif;
+    font-family: lust-display, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
@@ -143,7 +145,7 @@ a {
 }
 
 p {
-    font-family: aktiv-grotesk-extended,sans-serif;
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #8B2729;
@@ -153,7 +155,7 @@ p {
 }
 
 .para3 {
-    font-family: aktiv-grotesk-extended,sans-serif;
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #8B2729;
@@ -162,7 +164,7 @@ p {
 }
 
 .para2 {
-    font-family: aktiv-grotesk-extended,sans-serif;
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #8B2729;
@@ -173,7 +175,7 @@ p {
 }
 
 .para4 {
-    font-family: aktiv-grotesk-extended,sans-serif;
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #8B2729;
@@ -203,8 +205,9 @@ main {
     margin-top: 25px;
 }
 
-.definition, .say-it {
-    font-family: aktiv-grotesk-extended,sans-serif;
+.definition,
+.say-it {
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
@@ -244,10 +247,14 @@ span {
 /* Media Queries */
 
 /* Large Display */
-@media screen and (max-width: 1780px) {
+@media screen and (min-width: 1800px) {
     #contact {
-        width: 1235px;
-        margin: -455px 0 0 521px;
+        max-width: 1100px;
+        margin: -319px 0 0 600px;
+    }
+
+    ul {
+        margin-right: 0px;
     }
 
     #splash-text {
@@ -255,31 +262,38 @@ span {
         margin: 0 0 0 30px;
     }
 
-    .definition, .say-it {
+    .definition,
+    .say-it {
         margin-left: 30px;
     }
 
-    #thumbnail-1, #thumbnail-2,
-    #thumbnail-3, #thumbnail-4 {
+    #thumbnail-1,
+    #thumbnail-2,
+    #thumbnail-3,
+    #thumbnail-4 {
         width: 775px;
     }
 
-    #thumbnail-1, #thumbnail-3 {
+    #thumbnail-1,
+    #thumbnail-3 {
         left: 2em;
     }
 
-    #thumbnail-2, #thumbnail-4 {
+    #thumbnail-2,
+    #thumbnail-4 {
         left: 60em;
     }
 
-    .d-title, .d-title3 {
+    .d-title,
+    .d-title3 {
         font-size: 120px;
         margin-top: -320px;
         margin-left: 860px;
     }
 
-    
-    .d-title2, .d-title4 {
+
+    .d-title2,
+    .d-title4 {
         font-size: 120px;
         margin-left: 215px;
         margin-top: -325px;
@@ -289,13 +303,15 @@ span {
         margin-left: 270px;
     }
 
-    p, .para3 {
+    p,
+    .para3 {
         font-size: 25px;
         margin-left: 860px;
         width: 840px;
     }
 
-    .para2, .para4 {
+    .para2,
+    .para4 {
         font-size: 25px;
         margin-left: 40px;
         width: 840px;
@@ -306,12 +322,16 @@ span {
         margin: 185px 0 10px 0;
     }
 }
-  
+
 /* Standard Laptop */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     #contact {
-        width: 760px;
-        margin: -570px 0 0 640px;
+        max-width: 727px;
+        margin: -275px 0 0 660px;
+    }
+
+    ul {
+        margin-right: 45px;
     }
 
     #splash-text {
@@ -319,32 +339,39 @@ span {
         margin: 0 0 0 30px;
     }
 
-    .definition, .say-it {
+    .definition,
+    .say-it {
         margin-left: 30px;
         font-size: 25px;
     }
 
-    #thumbnail-1, #thumbnail-2,
-    #thumbnail-3, #thumbnail-4 {
+    #thumbnail-1,
+    #thumbnail-2,
+    #thumbnail-3,
+    #thumbnail-4 {
         width: 600px;
     }
 
-    #thumbnail-1, #thumbnail-3 {
+    #thumbnail-1,
+    #thumbnail-3 {
         left: 3em;
     }
 
-    #thumbnail-2, #thumbnail-4 {
+    #thumbnail-2,
+    #thumbnail-4 {
         left: 48em;
     }
 
-    .d-title, .d-title3 {
+    .d-title,
+    .d-title3 {
         font-size: 85px;
         margin-top: -215px;
         margin-left: 680px;
     }
 
-    
-    .d-title2, .d-title4 {
+
+    .d-title2,
+    .d-title4 {
         font-size: 85px;
         margin-left: 206px;
         margin-top: -228px;
@@ -354,13 +381,15 @@ span {
         margin-left: 240px;
     }
 
-    p, .para3 {
+    p,
+    .para3 {
         font-size: 18px;
         margin-left: 680px;
         width: 700px;
     }
 
-    .para2, .para4 {
+    .para2,
+    .para4 {
         font-size: 18px;
         margin-left: 59px;
         width: 618px;
@@ -368,11 +397,165 @@ span {
 
     footer {
         font-size: 18px;
-        margin: 185px 0 10px 0;
+        margin: 185px -180px 10px 0;
     }
 }
 
 /* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
+    #contact {
+        max-width: 727px;
+        margin: -275px 0 0 660px;
+    }
 
+    ul {
+        margin-right: -175px;
+    }
+
+    #splash-text {
+        font-size: 100px;
+        margin: 0 0 0 30px;
+    }
+
+    .definition,
+    .say-it {
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    #thumbnail-1,
+    #thumbnail-2,
+    #thumbnail-3,
+    #thumbnail-4 {
+        width: 600px;
+    }
+
+    #thumbnail-1,
+    #thumbnail-3 {
+        left: 3em;
+    }
+
+    #thumbnail-2,
+    #thumbnail-4 {
+        left: 48em;
+    }
+
+    .d-title,
+    .d-title3 {
+        font-size: 85px;
+        margin-top: -215px;
+        margin-left: 680px;
+    }
+
+
+    .d-title2,
+    .d-title4 {
+        font-size: 85px;
+        margin-left: 206px;
+        margin-top: -228px;
+    }
+
+    .d-title4 {
+        margin-left: 240px;
+    }
+
+    p,
+    .para3 {
+        font-size: 18px;
+        margin-left: 680px;
+        width: 700px;
+    }
+
+    .para2,
+    .para4 {
+        font-size: 18px;
+        margin-left: 59px;
+        width: 618px;
+    }
+
+    footer {
+        font-size: 18px;
+        margin: 185px -180px 10px 0;
+    }
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+    #contact {
+        max-width: 727px;
+        margin: -250px 0 0 625px;
+    }
+
+    ul {
+        margin-right: -32em;
+    }
+
+    #splash-text {
+        font-size: 100px;
+        margin: 0 0 0 30px;
+    }
+
+    .definition,
+    .say-it {
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    #thumbnail-1,
+    #thumbnail-2,
+    #thumbnail-3,
+    #thumbnail-4 {
+        width: 600px;
+    }
+
+    #thumbnail-1,
+    #thumbnail-3 {
+        left: 3em;
+    }
+
+    #thumbnail-2,
+    #thumbnail-4 {
+        left: 48em;
+    }
+
+    .d-title,
+    .d-title3 {
+        font-size: 85px;
+        margin-top: -215px;
+        margin-left: 680px;
+    }
+
+
+    .d-title2,
+    .d-title4 {
+        font-size: 85px;
+        margin-left: 206px;
+        margin-top: -228px;
+    }
+
+    .d-title4 {
+        margin-left: 240px;
+    }
+
+    p,
+    .para3 {
+        font-size: 18px;
+        margin-left: 680px;
+        width: 700px;
+    }
+
+    .para2,
+    .para4 {
+        font-size: 18px;
+        margin-left: 59px;
+        width: 618px;
+    }
+
+    footer {
+        font-size: 18px;
+        margin: 10px 0 25px 0;
+    }
 }
